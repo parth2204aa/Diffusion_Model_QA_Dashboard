@@ -1,0 +1,26 @@
+# requirements.txt
+fastapi
+uvicorn
+diffusers
+torch
+transformers
+torchvision
+Pillow
+numpy
+opencv-python
+streamlit
+requests
+
+
+# ------------------- How to Run -------------------
+# 1. Create virtual env and install requirements
+#    python -m venv env && source env/bin/activate
+#    pip install -r requirements.txt
+
+# 2. Run backend API:
+#    uvicorn backend.api:app --reload
+
+# 3. Run frontend dashboard:
+#    streamlit run frontend/dashboard.py
+
+# Make sure to update API endpoint if deploying remotely.
