@@ -53,6 +53,13 @@ diffusion-qa-dashboard/
 ├── results/
 └── README.md
 
+🧠 Usage
+  Start the backend server:
+    python app.py
+  Launch the frontend dashboard:
+    npm run dev --prefix frontend
+ Open your browser at: http://localhost:3000
+
 🧪 Evaluation Metrics
  - CLIP Similarity – Image-text alignment
  - SSIM / PSNR – Visual distortion vs reference
